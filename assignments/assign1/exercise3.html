@@ -12,8 +12,16 @@
             <h1><strong>
                 Chad Tolleson - CS565 - Fall 2019 - Assignment 1 - Exercise 3
             </strong></h1>
+            <nav>
+                <ul>
+                    <li><a href="#bio">bio</a></li>
+                    <li><a href="#news_links">news links</a></li>
+                    <li><a href="#fancy_equine">fancy equine</a></li>
+                    <li><a href="#contact_form">contact form</a></li>
+                </ul>
+            </nav>
         </header>
-        <section>
+        <section id="bio">
             <p>
                 <h2>
                     <strong>Bio:</strong>
@@ -24,7 +32,7 @@
             </p>
         </section>
         <br>
-        <section>
+        <section id="news_links">
             <p>
                 <h3>You should always read the news every morning:</h3>
                 <ol>
@@ -37,7 +45,7 @@
             </p>
         </section>
         <br>
-        <section>
+        <section id="fancy_equine">
             <p>
                 <h3>Pictures of the exotic Poitevin draft horse, Baudet du Poitou donkey, and Poitevin mule:</h3>
                 <ul>
@@ -53,7 +61,7 @@
             </p>
         </section>
         <br>
-        <form action="none">
+        <form id="contact_form" action="none">
             <h3><strong>Contact Form </strong></h3>
             <p>First name: 
                 <input type="text" name="firstname"> 
@@ -63,6 +71,9 @@
             </p>
             <p>E-mail: 
                 <input type="text" name="email"> 
+            </p>
+            <p>
+                <textarea name="feedback" id="feedback" cols="30" rows="10">tell us what you think...</textarea>
             </p>
             <input type="submit" name="submit" value="Submit">
             <input type="submit" name="reset" value="Reset">
