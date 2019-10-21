@@ -1,17 +1,16 @@
-<!--Chad Tolleson - CS565 - Fall 2019 - Assignment 1 - Exercise 3-->
+<!--Chad Tolleson - CS565 - Fall 2019 - Assignment 2 - Exercise 3-->
 <!DOCTYPE html>
 <html lang="en-US" class>
     <head>
         <title>
-            Chad Tolleson - CS565 - Fall 2019 - Assignment 1 - Exercise 3
+            Chad Tolleson - CS565 - Fall 2019 - Assignment 2 - Exercise 3
         </title>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="exercise3.css">
     </head>
     <body>
         <header>
-            <h1><strong>
-                Chad Tolleson - CS565 - Fall 2019 - Assignment 1 - Exercise 3
-            </strong></h1>
+            <div id="pg-header">Chad Tolleson - CS565 - Fall 2019 - Assignment 2 - Exercise 3</div>
             <nav>
                 <ul>
                     <li><a href="#bio">bio</a></li>
@@ -21,21 +20,18 @@
                 </ul>
             </nav>
         </header>
+
         <section id="bio">
-            <p>
-                <h2>
-                    <strong>Bio:</strong>
-                </h2> 
-                Born and raised in rural Texas, obtained my undergrad in New 
-                Orleans, did business consulting for a while, now studying 
-                CS at PSU!
-            </p>
+            <div id="bio-header">~BIO~</div>
+            <div id="bio-body">Born and raised in rural Texas, obtained my undergrad in New Orleans, did business consulting for a while, now studying CS at PSU!</div>
         </section>
+
         <br>
+
         <section id="news_links">
             <p>
                 <h3>You should always read the news every morning:</h3>
-                <ol>
+                <ol id="news-list">
                     <li><a href="https://www.cnn.com">CNN</a></li>
                     <li><a href="https://www.bloomberg.com">Bloomberg</a></li>
                     <li><a href="https://www.cnbc.com">CNBC</a></li>
@@ -44,11 +40,13 @@
                 </ol>
             </p>
         </section>
+        
         <br>
+        
         <section id="fancy_equine">
             <p>
                 <h3>Pictures of the exotic Poitevin draft horse, Baudet du Poitou donkey, and Poitevin mule:</h3>
-                <ul>
+                <ul id="pics-list">
                     <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Leonardo_11%2C_Poitevin_stallion.jpg" width="300" height="250" alt="Poitevin stallion, at show, maybe named 'Leonardo'"></li>
                     <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Poitevin-mulassier06_SDA2012.JPG" width="300" height="250" alt="a fancier Poitevin stallion in hand, at show"></li>
                     <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Poitou-female-one-year-old.jpg" width="300" height="250" alt="one year old Baudet du Poitou female"></li>
@@ -60,25 +58,31 @@
                 </h4>
             </p>
         </section>
+        
         <br>
+        
         <form id="contact_form" action="none">
-            <h3><strong>Contact Form </strong></h3>
-            <p>First name: 
-                <input type="text" name="firstname"> 
+            <h3 id="form-header">Contact Form</h3>
+            <p>
+                <input type="text" name="firstname" placeholder="first name"> 
             </p>
-            <p>Last name: 
-                <input type="text" name="lastname"> 
-            </p>
-            <p>E-mail: 
-                <input type="text" name="email"> 
+            <p> 
+                <input type="text" name="lastname" placeholder="last name"> 
             </p>
             <p>
-                <textarea name="feedback" id="feedback" cols="30" rows="10">tell us what you think...</textarea>
+                <input type="text" name="email" placeholder="e-mail"> 
+            </p>
+            <p>
+                <textarea name="feedback" id="feedback" placeholder="what are you thinking?"></textarea>
             </p>
             <input type="submit" name="submit" value="Submit">
             <input type="submit" name="reset" value="Reset">
         </form>
+        
         <br><br><br>
-        <footer><em>developed by Chad Tolleson in 2019</em></footer>
+        
+        <footer>
+            <em>developed by Chad Tolleson in 2019 all rights reserved</em>
+        </footer>
     </body>
 </html>
