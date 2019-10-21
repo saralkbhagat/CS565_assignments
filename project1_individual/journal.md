@@ -1,4 +1,6 @@
-# Chad Tolleson - CS565 - Project 1 Individual Portfolio - Work Journal #
+# Chad Tolleson
+# CS565 - Project 1 Individual Portfolio
+# Work Journal
 
 ## pre-10/21/2019
 Drafted the skeleton of the portfolio website via assignments 1 and 2.
