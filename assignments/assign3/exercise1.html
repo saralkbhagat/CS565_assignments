@@ -2,37 +2,25 @@
 <!DOCTYPE html>
 <html lang="en-US" class>
     <head>
-        <title>
-            Chad Tolleson - CS565 - Fall 2019 - Assignment 3 - Exercise 1
-        </title>
-        <meta charset="utf-8" />
+        <title>Chad Tolleson - CS565 - Fall 2019 - Assignment 3 - Exercise 1</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
         <link rel="stylesheet" href="exercise1.css">
     </head>
     <body>
         <form action="none">
             <header>CONTACT US</header>
-            <!-- <br> -->
-            <!-- <p>First name: 
-                <input type="text" name="firstname"> 
-            </p> -->
-            <!-- <p>Last name: 
-                <input type="text" name="lastname"> 
-            </p> -->
             <p>
-                <input type="text" name="name" placeholder="Name"> 
+                Name<input type="text" name="name"> 
             </p>
             <p>
-                <input type="text" name="email" placeholder="Email"> 
+                Email<input type="text" name="email"> 
             </p>
             <p>
-                <textarea name="feedback" placeholder="tell us what you think..."></textarea>
+                Comment<textarea name="feedback"></textarea>
             </p>
-            <!-- <input type="radio" name="undergraduate"> Undergraduate Student
-            <br><br>
-            <input type="radio" name="graduate"> Graduate Student
-            <br><br> -->
-            <input type="submit" name="submit" value="SUBMIT">
-            <input type="submit" name="reset" value="RESET">
+            <button type="button" class="btn btn-primary btn-lg">Submit</button>
+            <button type="button" class="btn btn-secondary btn-lg">Reset</button>
         </form>
     </body>
 </html>
