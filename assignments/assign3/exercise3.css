@@ -1,0 +1,20 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1%;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    align-content: space-between;
+}
+
+.box {
+    background-color: rgb(70, 66, 66);
+    color: lightgray;
+    width: 15%;
+    margin: .2%;
+    padding: 1% 5% 3% 1%;
+    border-radius: 5%;
+    size: 3fr;
+}
