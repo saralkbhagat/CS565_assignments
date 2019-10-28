@@ -97,7 +97,7 @@ input[type="text"] {
 
 textarea {
     width: 90%;
-    max-width: 90%;
+    /* max-width: 90%; */
     height: 80px;
 }
 
