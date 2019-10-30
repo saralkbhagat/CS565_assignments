@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    width: 100%;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.col-sm-1 {
+    background-color: navy;
+    border: white;
+    border-style: solid;
+    border-width: .1rem;
+}
+
+.col-sm-3 {
+    background-color: purple;
+    border: white;
+    border-style: solid;
+    border-width: .1rem;
+}
+
+.col-sm-4 {
+    background-color: darkcyan;
+    border: white;
+    border-style: solid;
+    border-width: .1rem;
+}
+
+.col-sm-6 {
+    background-color: yellowgreen;
+    border: white;
+    border-style: solid;
+    border-width: .1rem;
+}
+
+.col-sm-8 {
+    background-color: salmon;
+    border: white;
+    border-style: solid;
+    border-width: .1rem;
+}
+
+.col-sm-12 {
+    background-color: green;
+    border: white;
+    border-style: solid;
+    border-width: .1rem;
+}
