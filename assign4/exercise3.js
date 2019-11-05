@@ -1,4 +1,8 @@
 
+document.getElementById("submitbtn").onclick = function() { DisplayForm() };
+
+document.getElementById("reset").onclick = function() { ResetForm() }
+
 function DisplayForm() {
     console.log("name: " + document.getElementById("name").value);
     console.log("e-mail: " + document.getElementById("email").value);
