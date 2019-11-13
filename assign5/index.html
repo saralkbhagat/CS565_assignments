@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chad Tolleson - CS565 - Assignment 5 - Exercise 1</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
-    <link rel="stylesheet" href="assign5ex1.css">
+    <link rel="stylesheet" href="./assign5ex1.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script rel="text/javascript" src="app.js"></script>
+    <!-- <script rel="text/javascript" src="app.js"></script> -->
 </head>
 <body>
     <form id="feedback_form" action="/submit" method="post">
         <header>CONTACT US</header>
         <p> Name<input type="text" id="name"> </p>
-        <p> Email<input type="text" id="email"> </p>
-        <p> Comment<textarea id="feedback"></textarea> </p>
-        <button type="button" id="submitbtn" class="btn btn-primary btn-lg" 
+        <!-- <p> Email<input type="text" id="email"> </p> -->
+        <!-- <p> Comment<textarea id="feedback"></textarea> </p> -->
+        <button type="submit" id="submitbtn" class="btn btn-primary btn-lg" 
             onclick="DisplayForm()">Submit</button>
         <button type="button" id="reset" class="btn btn-secondary btn-lg"
             onclick="ResetForm()">Reset</button>
     </form>
-    <script rel="text/javascript" src="formcontrols.js"></script>
+    <script rel="text/javascript" src="./formcontrols.js"></script>
 </body>
 </html>
