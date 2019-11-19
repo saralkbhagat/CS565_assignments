@@ -1,10 +1,11 @@
 const express = require('express');
 const server = express();
 const port = 8080;
-const bodyParser = require("body-parser");
+// const bodyParser = require("body-parser");
 
 server.use(express.static(__dirname));
-server.use(bodyParser.urlencoded({ extended: true }));
+// server.use(bodyParser.urlencoded({ extended: true }));
+server.use(express.urlencoded({ extended: true }));
 
 server.get('/', function(req, res) {
     res.status(200);
